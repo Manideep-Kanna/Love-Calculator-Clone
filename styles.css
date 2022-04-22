@@ -1,0 +1,79 @@
+body{
+    font-family: houschka-rounded, sans-serif;
+    font-size: 19px;
+    word-spacing: 5px;
+    line-height: 80%;
+}
+h1{
+    font-size: 1.78947rem;
+    font-weight: bolder;
+}
+p{
+    line-height: 1;
+    font-weight: 510;
+    padding: 1% 
+
+}
+.navbar{
+    background-color: white;
+}
+.nav-item{
+    font-size:0.9rem;
+    font-weight: bold;
+}
+.content{
+    padding:5% 20%;
+}
+
+.content form{
+    margin: 7%;
+    text-align: center;
+}
+.name-container input{
+
+    border-radius: 30px 30px;
+    margin-top: 5%;
+}
+.crush-name-container input{
+    border-radius: 30px 30px;
+    margin-top: 5%;
+}
+.love-button{
+    display: block;
+    margin: auto;
+    border-radius: 30px 30px;
+}
+.form-image{
+    z-index: -1;
+    position: absolute;
+    opacity: 0.2;
+    top: 82%;
+    left: 39%;
+    width: 23%;
+    margin-right: 50%;
+
+}
+.footer{
+    margin: 0%;
+    padding: 1%;
+    background-color: silver;
+    color: black;
+    font-size: 0.8rem;
+}
+
+.footer-text{
+    text-align: center;
+}
+@media (min-width:715px) and (max-width:1006px){
+    .name-container input{
+        margin-left: 17%;
+    }
+    .crush-name-container{
+        margin-left:5%;
+    }
+}
+@media(max-width:714px){
+    .crush-name-container label{
+        margin-top:5%;
+    }
+}
